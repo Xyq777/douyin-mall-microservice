@@ -40,8 +40,8 @@ func WarpResponse(ctx context.Context, c *app.RequestContext, content map[string
 	var cartNum int
 	userId := frontendutils.GetUserIdFromCtx(ctx)
 	cartResp, _ := rpc.CartClient.GetCart(ctx, &cart.GetCartReq{UserId: userId})
-	if cartResp != nil && cartResp.Cart != nil {
-		cartNum = len(cartResp.Cart.Items)
+	if cartResp != nil && cartResp.Items != nil {
+		cartNum = len(cartResp.Items)
 	}
 	content["user_id"] = ctx.Value(frontendutils.UserIdKey)
 	content["cart_num"] = cartNum
