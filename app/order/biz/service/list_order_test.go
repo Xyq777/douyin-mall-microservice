@@ -91,7 +91,7 @@ func TestListOrderService_Run(t *testing.T) {
 				// 验证第一个订单的订单项
 				assert.Equal(t, 2, len(resp.Orders[0].OrderItems))
 				assert.Equal(t, uint32(1), resp.Orders[0].OrderItems[0].Item.ProductId)
-				assert.Equal(t, int32(2), resp.Orders[0].OrderItems[0].Item.Quantity)
+				assert.Equal(t, uint32(2), resp.Orders[0].OrderItems[0].Item.Quantity)
 				assert.Equal(t, float32(49.99), resp.Orders[0].OrderItems[0].Cost)
 
 				// 验证第二个订单
