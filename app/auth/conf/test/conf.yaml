@@ -1,6 +1,6 @@
 kitex:
   service: "auth"
-  address: ":8887"
+  address: ":8899"
   log_level: info
   log_file_name: "log/kitex.log"
   log_max_size: 10
@@ -9,12 +9,12 @@ kitex:
 
 registry:
   registry_address:
-    - 127.0.0.1:8500
+    - consul:8500
   username: ""
   password: ""
 
 mysql:
-  dsn: "gorm:gorm@tcp(127.0.0.1:3306)/gorm?charset=utf8mb4&parseTime=True&loc=Local"
+  dsn: "root:TKyDZD8hB3XTam4r6f@tcp(mysql:3306)/gorm?charset=utf8mb4&parseTime=True&loc=Local"
 
 jwt:
   secret: "b53XkFgWDlyCcTyXI3YQXqhvmJOnJDuT"

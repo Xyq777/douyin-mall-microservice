@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"github.com/All-Done-Right/douyin-mall-microservice/product/biz/dal/mysql"
+	"github.com/All-Done-Right/douyin-mall-microservice/app/product/biz/dal/mysql"
 	product "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
 	"github.com/joho/godotenv"
 

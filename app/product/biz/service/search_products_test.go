@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/All-Done-Right/douyin-mall-microservice/product/biz/dal/mysql"
+	"github.com/All-Done-Right/douyin-mall-microservice/app/product/biz/dal/mysql"
 
 	"context"
 	"fmt"

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"fmt"
-	"github.com/All-Done-Right/douyin-mall-microservice/product/biz/dal/mysql"
-	"github.com/All-Done-Right/douyin-mall-microservice/product/biz/model"
+	"github.com/All-Done-Right/douyin-mall-microservice/app/product/biz/dal/mysql"
+	"github.com/All-Done-Right/douyin-mall-microservice/app/product/biz/model"
 	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
 )
 
@@ -20,6 +20,7 @@ func (s *ListProductsService) Run(req *product.ListProductsReq) (resp *product.L
 	// Finish your business logic.
 	fmt.Println("到product服务的搜索列表方法")
 	categoryQuery := model.NewCategoryQuery(s.ctx, mysql.DB)
+	fmt.Println(req.CategoryName)
 	c, err := categoryQuery.GetProductsByCategoryName(req.CategoryName)
 	if err != nil {
 		return nil, err

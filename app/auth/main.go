@@ -2,6 +2,7 @@ package main
 
 import (
 	consul "github.com/kitex-contrib/registry-consul"
+	"github.com/sirupsen/logrus"
 	"net"
 	"time"
 
@@ -23,7 +24,7 @@ func main() {
 
 	err := svr.Run()
 	if err != nil {
-		klog.Error(err.Error())
+		logrus.Error(err.Error())
 	}
 }
 
