@@ -30,27 +30,7 @@ func _getproductMw() []app.HandlerFunc {
 	return nil
 }
 
-func _searchproductsMw() []app.HandlerFunc {
-	// your code...
-	return nil
-}
-
-func _deleteproductMw() []app.HandlerFunc {
-	// your code...
-	return nil
-}
-
-func _insertproductMw() []app.HandlerFunc {
-	// your code...
-	return nil
-}
-
-func _updateproductMw() []app.HandlerFunc { return nil }
-
-func _searchproducsMw() []app.HandlerFunc { return nil }
-
 func _searchproducsMw() []app.HandlerFunc {
 	// your code...
 	return nil
 }
-

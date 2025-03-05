@@ -1,6 +1,6 @@
 module github.com/All-Done-Right/douyin-mall-microservice/app/frontend
 
-go 1.22.0
+go 1.23.1
 
 toolchain go1.23.6
 
@@ -141,4 +141,3 @@ require (
 	google.golang.org/grpc v1.63.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
