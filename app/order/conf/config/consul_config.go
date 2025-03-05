@@ -2,11 +2,11 @@ package config
 
 import "strconv"
 
-type Etcd struct {
+type Consul struct {
 	Host string
 	Port int
 }
 
-func (e Etcd) Addr() string {
+func (e Consul) Addr() string {
 	return e.Host + ":" + strconv.Itoa(e.Port)
 }
