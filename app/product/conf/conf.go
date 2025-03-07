@@ -60,7 +60,7 @@ func GetConf() *Config {
 
 func initConf() {
 
-	prefix := "conf"
+	prefix := "./app/product/conf"
 	confFileRelPath := filepath.Join(prefix, filepath.Join(GetEnv(), "conf.yaml"))
 
 	content, err := ioutil.ReadFile(confFileRelPath)

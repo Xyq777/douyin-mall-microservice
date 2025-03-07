@@ -66,7 +66,7 @@ func GetConf() *Config {
 
 func initConf() {
 	prefix := "conf"
-	confFileRelPath := filepath.Join(prefix, filepath.Join(GetEnv(), "conf.yaml"))
+	confFileRelPath := filepath.Join(prefix, filepath.Join(GetEnv(), "conf.toml"))
 
 	for i := 0; i < 5; i++ {
 		if _, err := os.Stat(confFileRelPath); err == nil {
