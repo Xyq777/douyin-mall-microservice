@@ -3,7 +3,6 @@ module github.com/All-Done-Right/douyin-mall-microservice/common
 go 1.21
 
 require (
-	github.com/All-Done-Right/douyin-mall-microservice/common v0.0.0-20250221030954-58f21ff9d9c9
 	github.com/cloudwego/kitex v0.11.3
 	github.com/hertz-contrib/obs-opentelemetry/provider v0.2.3
 	github.com/kitex-contrib/config-consul v0.1.2
