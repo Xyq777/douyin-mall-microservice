@@ -8,7 +8,7 @@ douyin-mall-microservice
 ├─ idl # idl目录
 ├─ db # 数据库初始化
 ├─ deploy # 项目部署相关
-├─ rpc_gen # client 代码生成目录
+├─ rpc-gen # client 代码生成目录
 └─ scripts # 项目脚本
 ```
 

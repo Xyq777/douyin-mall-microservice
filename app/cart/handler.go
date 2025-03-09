@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	cart "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/cart"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/cart/biz/service"
+	cart "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/cart"
 )
 
 // CartServiceImpl implements the last service interface defined in the IDL.

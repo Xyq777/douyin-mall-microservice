@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	auth "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/auth"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/auth/biz/service"
+	auth "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/auth"
 )
 
 // AuthServiceImpl implements the last service interface defined in the IDL.

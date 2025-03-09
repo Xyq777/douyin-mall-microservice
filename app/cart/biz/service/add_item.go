@@ -6,8 +6,8 @@ import (
 	"github.com/All-Done-Right/douyin-mall-microservice/app/cart/biz/dal/mysql"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/cart/biz/model"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/cart/rpc"
-	cart "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/cart"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	cart "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/cart"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 	"github.com/cloudwego/kitex/pkg/kerrors"
 )
 

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	auth "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/auth"
+	auth "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/auth"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/stretchr/testify/assert"

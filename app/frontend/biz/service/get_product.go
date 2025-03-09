@@ -19,7 +19,7 @@ import (
 
 	product "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/hertz_gen/frontend/product"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
-	rpcproduct "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	rpcproduct "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/common/utils"
 )

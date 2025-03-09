@@ -21,8 +21,8 @@ import (
 	common "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/hertz_gen/frontend/common"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
 	frontendutils "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/utils"
-	rpccart "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/cart"
-	rpcproduct "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	rpccart "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/cart"
+	rpcproduct "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/common/utils"
 )

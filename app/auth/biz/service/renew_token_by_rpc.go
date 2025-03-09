@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/All-Done-Right/douyin-mall-microservice/app/auth/conf"
-	auth "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/auth"
+	auth "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/auth"
 	"github.com/golang-jwt/jwt/v4"
 )
 

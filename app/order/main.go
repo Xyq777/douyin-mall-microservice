@@ -4,7 +4,7 @@ import (
 	"github.com/All-Done-Right/douyin-mall-microservice/app/order/biz/dal/repo/model"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/order/core"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/order/global"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/order/orderservice"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/order/orderservice"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"

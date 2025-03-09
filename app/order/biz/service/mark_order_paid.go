@@ -5,7 +5,7 @@ import (
 	"errors"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/order/biz/dal/repo/repo_dao"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/order/global"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/order"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/order"
 	"github.com/redis/go-redis/v9"
 	"github.com/sirupsen/logrus"
 )

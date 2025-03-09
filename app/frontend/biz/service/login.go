@@ -20,7 +20,7 @@ import (
 	auth "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/hertz_gen/frontend/auth"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
 	frontendutils "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/utils"
-	rpcuser "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/user"
+	rpcuser "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/user"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/hertz-contrib/sessions"
 )

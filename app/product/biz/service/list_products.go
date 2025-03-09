@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/product/biz/dal/mysql"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/product/biz/model"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 )
 
 type ListProductsService struct {

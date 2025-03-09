@@ -9,7 +9,7 @@ import (
 
 	"github.com/All-Done-Right/douyin-mall-microservice/app/cart/conf"
 	cartutils "github.com/All-Done-Right/douyin-mall-microservice/app/cart/utils"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product/productcatalogservice"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product/productcatalogservice"
 	"github.com/cloudwego/kitex/client"
 	consul "github.com/kitex-contrib/registry-consul"
 )

@@ -20,8 +20,8 @@ import (
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/hertz_gen/frontend/checkout"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
 	frontendutils "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/utils"
-	rpccheckout "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/checkout"
-	rpcpayment "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/payment"
+	rpccheckout "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/checkout"
+	rpcpayment "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/payment"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/common/utils"
 )

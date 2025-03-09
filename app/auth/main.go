@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/All-Done-Right/douyin-mall-microservice/app/auth/conf"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/auth/authservice"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/auth/authservice"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"

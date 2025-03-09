@@ -19,7 +19,7 @@ import (
 
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
 	frontendutils "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/utils"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/cart"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/cart"
 
 	"github.com/cloudwego/hertz/pkg/app"
 )

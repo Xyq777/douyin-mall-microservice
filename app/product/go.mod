@@ -3,7 +3,7 @@ module github.com/All-Done-Right/douyin-mall-microservice/app/product
 go 1.22.5
 
 require (
-	github.com/All-Done-Right/douyin-mall-microservice/rpc_gen v0.0.0-00010101000000-000000000000
+	github.com/All-Done-Right/douyin-mall-microservice/rpc-gen v0.0.0-00010101000000-000000000000
 	github.com/cloudwego/kitex v0.12.3
 	github.com/joho/godotenv v1.5.1
 	github.com/kitex-contrib/obs-opentelemetry/logging/logrus v0.0.0-20241120035129-55da83caab1b
@@ -20,7 +20,7 @@ require (
 
 )
 
-replace github.com/All-Done-Right/douyin-mall-microservice/rpc_gen => ../../rpc_gen
+replace github.com/All-Done-Right/douyin-mall-microservice/rpc-gen => ../../rpc-gen
 
 require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect

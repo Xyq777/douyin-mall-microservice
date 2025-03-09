@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	cart "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/cart"
+	cart "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/cart"
 )
 
 func TestEmptyCart_Run(t *testing.T) {

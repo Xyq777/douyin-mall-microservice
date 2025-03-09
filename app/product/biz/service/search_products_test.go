@@ -5,7 +5,7 @@ import (
 
 	"context"
 	"fmt"
-	product "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	product "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 	"github.com/joho/godotenv"
 	"testing"
 )

@@ -24,7 +24,7 @@ import (
 	"github.com/All-Done-Right/douyin-mall-microservice/common/mtl"
 	"github.com/All-Done-Right/douyin-mall-microservice/common/serversuite"
 	"github.com/All-Done-Right/douyin-mall-microservice/common/utils"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/payment/paymentservice"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/payment/paymentservice"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/server"
 	"github.com/joho/godotenv"

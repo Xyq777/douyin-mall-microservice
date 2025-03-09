@@ -21,7 +21,7 @@ import (
 
 	"github.com/All-Done-Right/douyin-mall-microservice/app/payment/biz/dal/mysql"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/payment/biz/model"
-	payment "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/payment"
+	payment "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/payment"
 	"github.com/cloudwego/kitex/pkg/kerrors"
 	creditcard "github.com/durango/go-credit-card"
 	"github.com/google/uuid"

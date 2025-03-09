@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/All-Done-Right/douyin-mall-microservice/app/order/biz/dal/repo/model"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/order"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/order"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -19,7 +19,7 @@ import (
 
 	common "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/hertz_gen/frontend/common"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/common/utils"
 	"github.com/cloudwego/kitex/pkg/klog"

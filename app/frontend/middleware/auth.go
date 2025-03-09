@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/utils"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/auth"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/auth"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 	"github.com/cloudwego/kitex/pkg/klog"

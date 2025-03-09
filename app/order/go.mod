@@ -7,11 +7,11 @@ toolchain go1.23.6
 replace (
 	github.com/All-Done-Right/douyin-mall-microservice/app/order => ../../app/order
 	github.com/All-Done-Right/douyin-mall-microservice/config => ./conf/config/config
-	github.com/All-Done-Right/douyin-mall-microservice/rpc_gen => ../../rpc_gen
+	github.com/All-Done-Right/douyin-mall-microservice/rpc-gen => ./../../rpc-gen
 )
 
 require (
-	github.com/All-Done-Right/douyin-mall-microservice/rpc_gen v0.0.0-00010101000000-000000000000
+	github.com/All-Done-Right/douyin-mall-microservice/rpc-gen v0.0.0-00010101000000-000000000000
 	github.com/DATA-DOG/go-sqlmock v1.5.2
 	github.com/Mmx233/EnvConfig v0.0.2
 	github.com/alicebob/miniredis/v2 v2.34.0

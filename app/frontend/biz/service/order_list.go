@@ -22,8 +22,8 @@ import (
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/types"
 	frontendutils "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/utils"
-	rpcorder "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/order"
-	rpcproduct "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	rpcorder "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/order"
+	rpcproduct "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/common/utils"
 )

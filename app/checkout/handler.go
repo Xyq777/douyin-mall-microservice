@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"github.com/All-Done-Right/douyin-mall-microservice/app/checkout/biz/service"
-	checkout "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/checkout"
+	checkout "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/checkout"
 )
 
 // CheckoutServiceImpl implements the last service interface defined in the IDL.

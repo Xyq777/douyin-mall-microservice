@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/product/biz/service"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 )
 
 // ProductCatalogServiceImpl implements the last service interface defined in the IDL.

@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	product "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product"
+	product "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product"
 	"testing"
 )
 

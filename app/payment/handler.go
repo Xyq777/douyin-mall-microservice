@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"github.com/All-Done-Right/douyin-mall-microservice/app/payment/biz/service"
-	payment "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/payment"
+	payment "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/payment"
 )
 
 // PaymentServiceImpl implements the last service interface defined in the IDL.

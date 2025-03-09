@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/All-Done-Right/douyin-mall-microservice/app/product/biz/dal"
-	product "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/product/productcatalogservice"
+	product "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/product/productcatalogservice"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"

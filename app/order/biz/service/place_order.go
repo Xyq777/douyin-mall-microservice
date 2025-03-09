@@ -7,7 +7,7 @@ import (
 	"github.com/All-Done-Right/douyin-mall-microservice/app/order/biz/dal/repo/repo_dao"
 	_const "github.com/All-Done-Right/douyin-mall-microservice/app/order/const"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/order/global"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/order"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/order"
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
 	"time"

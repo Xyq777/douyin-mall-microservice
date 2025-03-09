@@ -7,7 +7,7 @@ import (
 	"github.com/All-Done-Right/douyin-mall-microservice/app/cart/biz/dal"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/cart/conf"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/cart/rpc"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/cart/cartservice"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/cart/cartservice"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"

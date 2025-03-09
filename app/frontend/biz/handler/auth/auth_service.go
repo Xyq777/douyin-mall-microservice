@@ -22,7 +22,7 @@ import (
 	auth "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/hertz_gen/frontend/auth"
 	common "github.com/All-Done-Right/douyin-mall-microservice/app/frontend/hertz_gen/frontend/common"
 	"github.com/All-Done-Right/douyin-mall-microservice/app/frontend/infra/rpc"
-	authcenter "github.com/All-Done-Right/douyin-mall-microservice/rpc_gen/kitex_gen/auth"
+	authcenter "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/auth"
 	"github.com/cloudwego/hertz/pkg/app"
 	hertzUtils "github.com/cloudwego/hertz/pkg/common/utils"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
