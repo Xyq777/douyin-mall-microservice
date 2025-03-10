@@ -1,12 +1,10 @@
-package service
+package usecase
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/All-Done-Right/douyin-mall-microservice/app/auth/conf"
-	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/auth"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/stretchr/testify/assert"
 )

@@ -1,3 +1,5 @@
+//go:build ignore
+
 package conf
 
 import (
@@ -38,7 +40,7 @@ type Redis struct {
 }
 
 type Kitex struct {
-	Service       string `yaml:"service"`
+	Service       string `yaml:"usecase"`
 	Address       string `yaml:"address"`
 	LogLevel      string `yaml:"log_level"`
 	LogFileName   string `yaml:"log_file_name"`

@@ -1,12 +1,11 @@
-package service
+package usecase
 
 import (
 	"fmt"
+	"github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/auth"
 	"testing"
 	"time"
 
-	"github.com/All-Done-Right/douyin-mall-microservice/app/auth/conf"
-	auth "github.com/All-Done-Right/douyin-mall-microservice/rpc-gen/kitex_gen/auth"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/stretchr/testify/assert"
 )
@@ -58,8 +57,8 @@ func TestDeliverTokenByRPCService_Run(t *testing.T) {
 		{
 			name: "userid为空导致签名失败",
 			// userID:         ,
-			mockSecret:     conf.GetConf().JWT.Secret,
-			mockExpiration: time.Duration(conf.GetConf().JWT.ExpireTime),
+			mockSecret:     jwtSecret,
+			mockExpiration: time.Duration(jwtExpire),
 			mockTime:       time.Now(),
 			expectedError:  true,
 			expectedErrMsg: "Userid is empty",
